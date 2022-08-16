@@ -1,0 +1,22 @@
+.TabsContent h4{
+    color: lightpink;
+    font-size: 0.875em;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+.TabsContent p{
+    color: lawngreen;
+    font-size: 0.875em;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+.TabsSection{
+    padding: 2em 0;
+    color: mediumblue;
+}
+.TabsSection> h1{
+    color: olive;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}

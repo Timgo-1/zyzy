@@ -1,0 +1,14 @@
+html, body {
+  background:
+  linear-gradient(217deg, rgba(105, 217, 236, 0.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(76, 189, 76, 0.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(101, 101, 182, 0.8), rgba(0,0,255,0) 70.71%);
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

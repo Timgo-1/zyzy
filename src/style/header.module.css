@@ -1,0 +1,95 @@
+.Header{
+    display: flex;
+    align-items: baseline;
+    margin: 0 5em;
+    z-index: 5;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 1.3em 0px;
+    top: 0;
+}
+
+.logo{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.logo>span:hover{
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+.logo img{
+    margin-right: 0.1em;
+    width: 40px;
+}
+.actionBtn{
+    display: flex;
+    align-items: center;
+}
+.actionBtn>a{
+    color: orange;
+    margin: 0 1em;
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.actionBtn>a:hover{
+    background-color: steelblue;
+    color: yellow;
+}
+.actionBtn>a:first-child{
+    margin-left: 0;
+}
+.actionBtn .dropdownBtn{
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 0 0.5em;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.actionBtn .dropdownBtn:hover{
+    background-color: khaki;
+}
+
+.actionBtn .dropdownBtn i{
+    color: green;
+    padding: 0 0.8em;
+}
+.actionBtn .dropdownBtn>i:last-child{
+    font-size: 1.7em;
+    padding: 0.2em 0;
+}
+.animatedBg{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 94px;
+    background: repeating-radial-gradient(tan, saddlebrown 10%, goldenrod 15%);
+    z-index: 1;
+    box-shadow: 0px 0px 20px slategray;
+    transform: translateY(-104px);
+    transition: 300ms all ease-in-out;
+}
+@media screen and (max-width: 860px) {
+    .Header{
+        display: none;
+    }
+    .animatedBg{
+        height: 70px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Header{
+        margin: 0 2em;
+    }
+}
+
